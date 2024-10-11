@@ -1,0 +1,41 @@
+.cabecalho{
+    background-color: #64ce49;
+    text-align: center;
+}
+
+#conteudo section{
+    margin-top: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid rgb(0, 255, 115);
+    padding: 10px;    
+    color: black;
+    background-color: white;    
+}
+#corfundo{
+    background-color: rgb(68, 238, 139);
+}
+article#conteudo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#rodape{
+    margin-top: 30px;
+    text-align: center;
+}
+#menu a{
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+#menu a:hover{
+    background-color:#eff155;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
